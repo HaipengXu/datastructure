@@ -1,0 +1,21 @@
+﻿Build started 2023/3/22 15:56:50.
+     1>Project "D:\1New\wangdaoDataStructure\002SequenceList\105Tree\105Tree.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\105Tree.unsuccessfulbuild".
+       ClCompile:
+         D:\1New\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CreateTree.cpp
+         CreateTree.cpp
+       Link:
+         D:\1New\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\105Tree.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\105Tree.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\105Tree.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\105Tree.lib" /MACHINE:X86 Debug\CreateTree.obj
+         LINK : D:\1New\wangdaoDataStructure\002SequenceList\Debug\105Tree.exe not found or not built by the last incremental link; performing full link
+         105Tree.vcxproj -> D:\1New\wangdaoDataStructure\002SequenceList\Debug\105Tree.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\105Tree.exe;#1" /manifest Debug\105Tree.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\105Tree.unsuccessfulbuild".
+         Touching "Debug\105Tree.lastbuildstate".
+     1>Done Building Project "D:\1New\wangdaoDataStructure\002SequenceList\105Tree\105Tree.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.36

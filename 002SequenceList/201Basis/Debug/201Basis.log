@@ -1,0 +1,25 @@
+﻿Build started 2023/3/22 21:03:01.
+     1>Project "D:\1New\wangdaoDataStructure\002SequenceList\201Basis\201Basis.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\201Basis.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\1New\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 001Conversion.cpp
+         001Conversion.cpp
+     1>d:\1new\wangdaodatastructure\002sequencelist\201basis\001conversion.cpp(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\1new\vs2010\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>d:\1new\wangdaodatastructure\002sequencelist\201basis\001conversion.cpp(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\1new\vs2010\vc\include\stdio.h(304) : see declaration of 'scanf'
+       Link:
+         D:\1New\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\201Basis.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\201Basis.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\201Basis.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\201Basis.lib" /MACHINE:X86 Debug\001Conversion.obj
+         LINK : D:\1New\wangdaoDataStructure\002SequenceList\Debug\201Basis.exe not found or not built by the last incremental link; performing full link
+         201Basis.vcxproj -> D:\1New\wangdaoDataStructure\002SequenceList\Debug\201Basis.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\1New\wangdaoDataStructure\002SequenceList\Debug\201Basis.exe;#1" /manifest Debug\201Basis.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\201Basis.unsuccessfulbuild".
+         Touching "Debug\201Basis.lastbuildstate".
+     1>Done Building Project "D:\1New\wangdaoDataStructure\002SequenceList\201Basis\201Basis.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.37
